@@ -10,7 +10,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+
+    background-image: url(/rodridev/img/Imagem\ do\ WhatsApp\ de\ 2024-04-17\ à\(s\)\ 00.19.18_6a26779a.jpg);
+    background-size: cover; /* ajusta a imagem para cobrir todo o elemento pai */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* evita que a imagem se repita */
 }
 .greetings{
     font-size: 6rem;
